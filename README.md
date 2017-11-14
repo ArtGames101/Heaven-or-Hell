@@ -1,5 +1,5 @@
 # Heaven-or-Hell
-Send someone to heaven or hell
+Send someone to heaven or hell.
 
 
-dont judge me for bugs
+Don't judge me for bugs.
