@@ -1,1 +1,1 @@
-people = ["Jeff", "Gary", "Bob", "Larry", "Bary", "Jery", "Samantha", "TheInternet", "Artucuno (ArtGames101 Owner)", "Harry", "You", "A Book 0.0"]
+people = ["Jeff", "Gary", "Bob", "Larry", "Bary", "Jerry", "Samantha", "TheInternet", "Artucuno (ArtGames101 Owner)", "Harry", "You", "A Book 0.0", "Donald Trump", "Santa", "Elf", "Buddy", "Unknown", "Artucuno", "Pikachu"]

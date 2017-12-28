@@ -47,14 +47,20 @@ def menu():
     if choice == "1":
         play()
     if choice == "2":
-        clear_screen()
-        input("Coming Soon!")
-        menu()
+        htp()
     if choice == "0":
         clear_screen()
         print("Stopped All Scripts!")
         sys.exit(1)
 
+def htp():
+    clear_screen()
+    print("Heaven or hell is a game where you judge people based apon what\n"
+          "they did in life by reading their Record!\n"
+          "\n"
+          "You can either choose to send them to heaven or hell!")
+    input("\nEnter")
+    menu()
 def play():
     clear_screen()
     print("Name: {}\n"
@@ -64,15 +70,15 @@ def play():
           "* {}\n"
           "* {}\n"
           "* {}\n".format(random.choice(p.people), random.choice(sc.s1), random.choice(sc.s2), random.choice(sc.s3)))
-    print("\nHeaven Or Hell? or back")
+    print("\n1. Heaven Or 2. Hell? or 0. back")
     choice = user_choice()
-    if choice == "Heaven":
+    if choice == "1":
         input("Sent to Heaven! :)")
         play()
-    if choice == "Hell":
+    if choice == "2":
         input("Sent to Hell! >:(")
         play()
-    if choice == "Back":
+    if choice == "0":
         menu()
 
 main()
